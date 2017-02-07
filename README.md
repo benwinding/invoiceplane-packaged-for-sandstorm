@@ -1,3 +1,7 @@
+## WHAT THE FORK?
+
+This is a fork of the original [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane), which has been ported for the [sandstorm.io](https://sandstorm.io) cloud platform.
+
 ![InvoicePlane](http://invoiceplane.com/content/logo/PNG/logo_300x150.png)
 #### _Version 1.4.10_
 
