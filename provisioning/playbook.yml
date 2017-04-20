@@ -71,6 +71,12 @@
   # Create a new database
   - name: make InvoicePlane database
     mysql_db: name={{mysql_dbName}} state=present
+
+  - mysql_user: bob
+    name: bob
+    password: 12345
+    priv: '*.*:ALL'
+    state: present
 #  - name: copy sql file
 #    copy: src=data/base-scema.sql dest=/tmp
 #  - name: update database with schema file
